@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E196A18F11B52462A2F037 /* Pods_WaduUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B3084761842D94AE44EB51 /* Pods_WaduUITests.framework */; };
+		4C79A5DD524C09975B2F12B9 /* Pods_Wadu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC071DFE99E93B828A8E30FB /* Pods_Wadu.framework */; };
+		4E55B759E98E4D1763367D97 /* Pods_WaduTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CA101DC80225162CEDFC70 /* Pods_WaduTests.framework */; };
+		6118073D20C6F03F007B1CD0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6118073C20C6F03F007B1CD0 /* User.swift */; };
+		6133992B20C33C920064F56D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6133992A20C33C920064F56D /* ProfileViewController.swift */; };
+		615A878D20C9BEA8005E4CEB /* QRcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615A878C20C9BEA8005E4CEB /* QRcodeScannerViewController.swift */; };
+		615D38FE20BE41E900183924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D38FD20BE41E900183924 /* AppDelegate.swift */; };
+		615D390020BE41E900183924 /* CamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D38FF20BE41E900183924 /* CamViewController.swift */; };
+		615D390320BE41E900183924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615D390120BE41E900183924 /* Main.storyboard */; };
+		615D390520BE41EB00183924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615D390420BE41EB00183924 /* Assets.xcassets */; };
+		615D390820BE41EB00183924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615D390620BE41EB00183924 /* LaunchScreen.storyboard */; };
+		615D391320BE41EB00183924 /* WaduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D391220BE41EB00183924 /* WaduTests.swift */; };
+		615D391E20BE41EB00183924 /* WaduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D391D20BE41EB00183924 /* WaduUITests.swift */; };
+		615D392C20BE739C00183924 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D392B20BE739C00183924 /* ImageViewController.swift */; };
+		61A6E2D220F91C3300C01FC3 /* CurrentParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6E2D120F91C3300C01FC3 /* CurrentParty.swift */; };
+		61CCB32820C123250010DDF7 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CCB32720C123250010DDF7 /* ConnectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		615D390F20BE41EB00183924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615D38F220BE41E900183924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615D38F920BE41E900183924;
+			remoteInfo = Wadu;
+		};
+		615D391A20BE41EB00183924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615D38F220BE41E900183924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615D38F920BE41E900183924;
+			remoteInfo = Wadu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19370F6BA73A02D2D853E798 /* Pods-Wadu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wadu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wadu/Pods-Wadu.debug.xcconfig"; sourceTree = "<group>"; };
+		2CB3E9188450D25B189DF6BF /* Pods-WaduTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaduTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaduTests/Pods-WaduTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F49E4E550A05AAADD01700C /* Pods-WaduUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaduUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaduUITests/Pods-WaduUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59B3084761842D94AE44EB51 /* Pods_WaduUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaduUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6118073C20C6F03F007B1CD0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6133992A20C33C920064F56D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		615A878C20C9BEA8005E4CEB /* QRcodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcodeScannerViewController.swift; sourceTree = "<group>"; };
+		615D38FA20BE41E900183924 /* Wadu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wadu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		615D38FD20BE41E900183924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		615D38FF20BE41E900183924 /* CamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamViewController.swift; sourceTree = "<group>"; };
+		615D390220BE41E900183924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		615D390420BE41EB00183924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		615D390720BE41EB00183924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		615D390920BE41EB00183924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615D390E20BE41EB00183924 /* WaduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615D391220BE41EB00183924 /* WaduTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaduTests.swift; sourceTree = "<group>"; };
+		615D391420BE41EB00183924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615D391920BE41EB00183924 /* WaduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615D391D20BE41EB00183924 /* WaduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaduUITests.swift; sourceTree = "<group>"; };
+		615D391F20BE41EB00183924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615D392B20BE739C00183924 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		61A6E2D120F91C3300C01FC3 /* CurrentParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentParty.swift; sourceTree = "<group>"; };
+		61CCB32720C123250010DDF7 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		7EF69A385EBAC39258427663 /* Pods-WaduUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaduUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaduUITests/Pods-WaduUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83CA101DC80225162CEDFC70 /* Pods_WaduTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaduTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4EDCDAA7A56A4E3A09D628 /* Pods-Wadu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wadu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wadu/Pods-Wadu.release.xcconfig"; sourceTree = "<group>"; };
+		CB7EEACC1A5A4D1ED4FB5711 /* Pods-WaduTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaduTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaduTests/Pods-WaduTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC071DFE99E93B828A8E30FB /* Pods_Wadu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wadu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615D38F720BE41E900183924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C79A5DD524C09975B2F12B9 /* Pods_Wadu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615D390B20BE41EB00183924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E55B759E98E4D1763367D97 /* Pods_WaduTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615D391620BE41EB00183924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E196A18F11B52462A2F037 /* Pods_WaduUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615D38F120BE41E900183924 = {
+			isa = PBXGroup;
+			children = (
+				615D38FC20BE41E900183924 /* Wadu */,
+				615D391120BE41EB00183924 /* WaduTests */,
+				615D391C20BE41EB00183924 /* WaduUITests */,
+				615D38FB20BE41E900183924 /* Products */,
+				C65A3B29E79FAF308D32B0FA /* Pods */,
+				66974BC80E395DC96B15D9D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		615D38FB20BE41E900183924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615D38FA20BE41E900183924 /* Wadu.app */,
+				615D390E20BE41EB00183924 /* WaduTests.xctest */,
+				615D391920BE41EB00183924 /* WaduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		615D38FC20BE41E900183924 /* Wadu */ = {
+			isa = PBXGroup;
+			children = (
+				615D38FD20BE41E900183924 /* AppDelegate.swift */,
+				615D38FF20BE41E900183924 /* CamViewController.swift */,
+				615D392B20BE739C00183924 /* ImageViewController.swift */,
+				6133992A20C33C920064F56D /* ProfileViewController.swift */,
+				61CCB32720C123250010DDF7 /* ConnectionViewController.swift */,
+				615A878C20C9BEA8005E4CEB /* QRcodeScannerViewController.swift */,
+				6118073C20C6F03F007B1CD0 /* User.swift */,
+				61A6E2D120F91C3300C01FC3 /* CurrentParty.swift */,
+				615D390120BE41E900183924 /* Main.storyboard */,
+				615D390420BE41EB00183924 /* Assets.xcassets */,
+				615D390620BE41EB00183924 /* LaunchScreen.storyboard */,
+				615D390920BE41EB00183924 /* Info.plist */,
+			);
+			path = Wadu;
+			sourceTree = "<group>";
+		};
+		615D391120BE41EB00183924 /* WaduTests */ = {
+			isa = PBXGroup;
+			children = (
+				615D391220BE41EB00183924 /* WaduTests.swift */,
+				615D391420BE41EB00183924 /* Info.plist */,
+			);
+			path = WaduTests;
+			sourceTree = "<group>";
+		};
+		615D391C20BE41EB00183924 /* WaduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				615D391D20BE41EB00183924 /* WaduUITests.swift */,
+				615D391F20BE41EB00183924 /* Info.plist */,
+			);
+			path = WaduUITests;
+			sourceTree = "<group>";
+		};
+		66974BC80E395DC96B15D9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC071DFE99E93B828A8E30FB /* Pods_Wadu.framework */,
+				83CA101DC80225162CEDFC70 /* Pods_WaduTests.framework */,
+				59B3084761842D94AE44EB51 /* Pods_WaduUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65A3B29E79FAF308D32B0FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19370F6BA73A02D2D853E798 /* Pods-Wadu.debug.xcconfig */,
+				BA4EDCDAA7A56A4E3A09D628 /* Pods-Wadu.release.xcconfig */,
+				CB7EEACC1A5A4D1ED4FB5711 /* Pods-WaduTests.debug.xcconfig */,
+				2CB3E9188450D25B189DF6BF /* Pods-WaduTests.release.xcconfig */,
+				3F49E4E550A05AAADD01700C /* Pods-WaduUITests.debug.xcconfig */,
+				7EF69A385EBAC39258427663 /* Pods-WaduUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		615D38F920BE41E900183924 /* Wadu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615D392220BE41EB00183924 /* Build configuration list for PBXNativeTarget "Wadu" */;
+			buildPhases = (
+				8118BE70F224470899456E5E /* [CP] Check Pods Manifest.lock */,
+				615D38F620BE41E900183924 /* Sources */,
+				615D38F720BE41E900183924 /* Frameworks */,
+				615D38F820BE41E900183924 /* Resources */,
+				D9487C04061CF6B7DCB6E2DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wadu;
+			productName = Wadu;
+			productReference = 615D38FA20BE41E900183924 /* Wadu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		615D390D20BE41EB00183924 /* WaduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615D392520BE41EB00183924 /* Build configuration list for PBXNativeTarget "WaduTests" */;
+			buildPhases = (
+				6DF04C8FD0146A1C9D4426D9 /* [CP] Check Pods Manifest.lock */,
+				615D390A20BE41EB00183924 /* Sources */,
+				615D390B20BE41EB00183924 /* Frameworks */,
+				615D390C20BE41EB00183924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615D391020BE41EB00183924 /* PBXTargetDependency */,
+			);
+			name = WaduTests;
+			productName = WaduTests;
+			productReference = 615D390E20BE41EB00183924 /* WaduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		615D391820BE41EB00183924 /* WaduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615D392820BE41EB00183924 /* Build configuration list for PBXNativeTarget "WaduUITests" */;
+			buildPhases = (
+				E09406E3B877552D4618AB5C /* [CP] Check Pods Manifest.lock */,
+				615D391520BE41EB00183924 /* Sources */,
+				615D391620BE41EB00183924 /* Frameworks */,
+				615D391720BE41EB00183924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615D391B20BE41EB00183924 /* PBXTargetDependency */,
+			);
+			name = WaduUITests;
+			productName = WaduUITests;
+			productReference = 615D391920BE41EB00183924 /* WaduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		615D38F220BE41E900183924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jerry Shi";
+				TargetAttributes = {
+					615D38F920BE41E900183924 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					615D390D20BE41EB00183924 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 615D38F920BE41E900183924;
+					};
+					615D391820BE41EB00183924 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 615D38F920BE41E900183924;
+					};
+				};
+			};
+			buildConfigurationList = 615D38F520BE41E900183924 /* Build configuration list for PBXProject "Wadu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 615D38F120BE41E900183924;
+			productRefGroup = 615D38FB20BE41E900183924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615D38F920BE41E900183924 /* Wadu */,
+				615D390D20BE41EB00183924 /* WaduTests */,
+				615D391820BE41EB00183924 /* WaduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615D38F820BE41E900183924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615D390820BE41EB00183924 /* LaunchScreen.storyboard in Resources */,
+				615D390520BE41EB00183924 /* Assets.xcassets in Resources */,
+				615D390320BE41E900183924 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615D390C20BE41EB00183924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615D391720BE41EB00183924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DF04C8FD0146A1C9D4426D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaduTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8118BE70F224470899456E5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wadu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9487C04061CF6B7DCB6E2DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wadu/Pods-Wadu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JTMaterialTransition/JTMaterialTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTMaterialTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wadu/Pods-Wadu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09406E3B877552D4618AB5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaduUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		615D38F620BE41E900183924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A6E2D220F91C3300C01FC3 /* CurrentParty.swift in Sources */,
+				615D390020BE41E900183924 /* CamViewController.swift in Sources */,
+				61CCB32820C123250010DDF7 /* ConnectionViewController.swift in Sources */,
+				6118073D20C6F03F007B1CD0 /* User.swift in Sources */,
+				6133992B20C33C920064F56D /* ProfileViewController.swift in Sources */,
+				615A878D20C9BEA8005E4CEB /* QRcodeScannerViewController.swift in Sources */,
+				615D392C20BE739C00183924 /* ImageViewController.swift in Sources */,
+				615D38FE20BE41E900183924 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615D390A20BE41EB00183924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615D391320BE41EB00183924 /* WaduTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615D391520BE41EB00183924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615D391E20BE41EB00183924 /* WaduUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		615D391020BE41EB00183924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615D38F920BE41E900183924 /* Wadu */;
+			targetProxy = 615D390F20BE41EB00183924 /* PBXContainerItemProxy */;
+		};
+		615D391B20BE41EB00183924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615D38F920BE41E900183924 /* Wadu */;
+			targetProxy = 615D391A20BE41EB00183924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		615D390120BE41E900183924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615D390220BE41E900183924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		615D390620BE41EB00183924 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615D390720BE41EB00183924 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		615D392020BE41EB00183924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		615D392120BE41EB00183924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		615D392320BE41EB00183924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19370F6BA73A02D2D853E798 /* Pods-Wadu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YET34FB6KK;
+				INFOPLIST_FILE = Wadu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryshi.Wadu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		615D392420BE41EB00183924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4EDCDAA7A56A4E3A09D628 /* Pods-Wadu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YET34FB6KK;
+				INFOPLIST_FILE = Wadu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryshi.Wadu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		615D392620BE41EB00183924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7EEACC1A5A4D1ED4FB5711 /* Pods-WaduTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YET34FB6KK;
+				INFOPLIST_FILE = WaduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryshi.WaduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wadu.app/Wadu";
+			};
+			name = Debug;
+		};
+		615D392720BE41EB00183924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB3E9188450D25B189DF6BF /* Pods-WaduTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YET34FB6KK;
+				INFOPLIST_FILE = WaduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryshi.WaduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wadu.app/Wadu";
+			};
+			name = Release;
+		};
+		615D392920BE41EB00183924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F49E4E550A05AAADD01700C /* Pods-WaduUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YET34FB6KK;
+				INFOPLIST_FILE = WaduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryshi.WaduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wadu;
+			};
+			name = Debug;
+		};
+		615D392A20BE41EB00183924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF69A385EBAC39258427663 /* Pods-WaduUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YET34FB6KK;
+				INFOPLIST_FILE = WaduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryshi.WaduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wadu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		615D38F520BE41E900183924 /* Build configuration list for PBXProject "Wadu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615D392020BE41EB00183924 /* Debug */,
+				615D392120BE41EB00183924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615D392220BE41EB00183924 /* Build configuration list for PBXNativeTarget "Wadu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615D392320BE41EB00183924 /* Debug */,
+				615D392420BE41EB00183924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615D392520BE41EB00183924 /* Build configuration list for PBXNativeTarget "WaduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615D392620BE41EB00183924 /* Debug */,
+				615D392720BE41EB00183924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615D392820BE41EB00183924 /* Build configuration list for PBXNativeTarget "WaduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615D392920BE41EB00183924 /* Debug */,
+				615D392A20BE41EB00183924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 615D38F220BE41E900183924 /* Project object */;
+}
